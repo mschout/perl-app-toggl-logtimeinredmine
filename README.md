@@ -4,9 +4,16 @@ This program logs time worked from Toggl entries to Redmine.
 
 ## Installation
 
+It is recommended that you run the image in docker using the wrapper script.
+
 ```
-perl Makefile.PL
-make
+docker pull mschout/toggl-log-to-redmine
+```
+
+Then install the wrapper script (default is
+`/usr/local/bin/toggl-log-to-redmine`):
+
+```
 make install
 ```
 
@@ -27,6 +34,8 @@ global:
   # Toggl Client Id
   client: '12345'
 ```
+
+Install this config file at the XDG Layout standard location `$HOME/.config/toggl-log-to-redmine/config.yml`
 
 ## Running
 
