@@ -30,7 +30,10 @@ requires:
   WWW::Mechanize: '0'
   WebService::Toggl: '0'
   perl: '5.010'
-resources: {}
+resources:
+  bugtracker: https://github.com/mschout/perl-app-toggl-logtimeinredmine/issues
+  homepage: https://github.com/mschout/perl-app-toggl-logtimeinredmine
+  repository: https://github.com/mschout/perl-app-toggl-logtimeinredmine.git
 version: '0.01'
 x_generated_by_perl: v5.26.2
 x_serialization_backend: 'YAML::Tiny version 1.73'

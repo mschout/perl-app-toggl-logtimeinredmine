@@ -234,6 +234,20 @@ App::Toggl::LogToRedmine - Log Time Entries from Toggl in Redmine
 
 version 0.01
 
+=head1 SOURCE
+
+The development version is on github at L<https://https://github.com/mschout/perl-app-toggl-logtimeinredmine>
+and may be cloned from L<git://https://github.com/mschout/perl-app-toggl-logtimeinredmine.git>
+
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+L<https://github.com/mschout/perl-app-toggl-logtimeinredmine/issues>
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
+
 =head1 AUTHOR
 
 Michael Schout <mschout@cpan.org>
