@@ -14,13 +14,3 @@ uninstall:
 	@$(RM) $(DESTDIR)$(PREFIX)/bin/toggl-log-to-redmine
 	@docker rmi $(DOCKER_IMAGE):$(VERSION)
 	@docker rmi $(DOCKER_IMAGE):latest
-
-.PHONY: build
-build:
-	@docker build -t $(DOCKER_IMAGE):$(VERSION) . \
-		&& docker tag $(DOCKER_IMAGE):$(VERSION) $(DOCKER_IMAGE):latest
-
-.PHONY: publish
-publish:
-	@docker push $(DOCKER_IMAGE):$(VERSION) \
-		&& docker push $(DOCKER_IMAGE):latest
