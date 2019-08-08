@@ -1,5 +1,5 @@
 PREFIX ?= /usr/local
-VERSION = "v0.2.0"
+VERSION = "v0.1.0"
 DOCKER_IMAGE = mschout/toggl-log-to-redmine
 
 all: install
