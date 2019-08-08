@@ -15,16 +15,3 @@ config/config.yaml
 lib/App/Toggl/LogToRedmine.pm
 t/author-pod-syntax.t
 t/author-signature.t
-vendor/MooseX-App-Plugin-ConfigXDG/Changes
-vendor/MooseX-App-Plugin-ConfigXDG/LICENSE
-vendor/MooseX-App-Plugin-ConfigXDG/MANIFEST
-vendor/MooseX-App-Plugin-ConfigXDG/MANIFEST.SKIP
-vendor/MooseX-App-Plugin-ConfigXDG/META.json
-vendor/MooseX-App-Plugin-ConfigXDG/META.yml
-vendor/MooseX-App-Plugin-ConfigXDG/Makefile.PL
-vendor/MooseX-App-Plugin-ConfigXDG/README
-vendor/MooseX-App-Plugin-ConfigXDG/SIGNATURE
-vendor/MooseX-App-Plugin-ConfigXDG/lib/MooseX/App/Plugin/ConfigXDG.pm
-vendor/MooseX-App-Plugin-ConfigXDG/lib/MooseX/App/Plugin/ConfigXDG/Meta/Class.pm
-vendor/MooseX-App-Plugin-ConfigXDG/t/author-pod-syntax.t
-vendor/MooseX-App-Plugin-ConfigXDG/t/author-signature.t
