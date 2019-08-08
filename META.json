@@ -1,0 +1,67 @@
+{
+   "abstract" : "Log Time Entries from Toggl in Redmine",
+   "author" : [
+      "Michael Schout <mschout@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 6.012, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "App-Toggl-LogTimeInRedmine",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0",
+            "perl" : "5.010"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Dist::Zilla" : "5",
+            "Dist::Zilla::PluginBundle::MSCHOUT" : "0",
+            "Software::License::Perl_5" : "0",
+            "Test::Pod" : "1.41",
+            "Test::Signature" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp::Assert::More" : "0",
+            "DateTime" : "0",
+            "DateTime::Format::ISO8601" : "0",
+            "Function::Parameters" : "0",
+            "Modern::Perl" : "0",
+            "MooseX::App::Simple" : "0",
+            "Time::HiRes" : "0",
+            "Types::URI" : "0",
+            "WWW::Mechanize" : "0",
+            "WebService::Toggl" : "0",
+            "perl" : "5.010"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "perl" : "5.010"
+         }
+      }
+   },
+   "provides" : {
+      "App::Toggl::LogToRedmine" : {
+         "file" : "lib/App/Toggl/LogToRedmine.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {}
+   },
+   "version" : "0.01",
+   "x_generated_by_perl" : "v5.26.2",
+   "x_serialization_backend" : "Cpanel::JSON::XS version 4.04"
+}
+

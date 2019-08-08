@@ -1,0 +1,36 @@
+---
+abstract: 'Log Time Entries from Toggl in Redmine'
+author:
+  - 'Michael Schout <mschout@cpan.org>'
+build_requires:
+  perl: '5.010'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+  perl: '5.010'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 6.012, CPAN::Meta::Converter version 2.150010'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: App-Toggl-LogTimeInRedmine
+provides:
+  App::Toggl::LogToRedmine:
+    file: lib/App/Toggl/LogToRedmine.pm
+    version: '0.01'
+requires:
+  Carp::Assert::More: '0'
+  DateTime: '0'
+  DateTime::Format::ISO8601: '0'
+  Function::Parameters: '0'
+  Modern::Perl: '0'
+  MooseX::App::Simple: '0'
+  Time::HiRes: '0'
+  Types::URI: '0'
+  WWW::Mechanize: '0'
+  WebService::Toggl: '0'
+  perl: '5.010'
+resources: {}
+version: '0.01'
+x_generated_by_perl: v5.26.2
+x_serialization_backend: 'YAML::Tiny version 1.73'
