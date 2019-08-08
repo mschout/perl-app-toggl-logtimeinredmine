@@ -59,13 +59,13 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/mschout/perl-app-toggl-logtimeinredmine/issues"
+         "web" : "https://github.com/mschout/perl-app-toggl-to-redmine/issues"
       },
-      "homepage" : "https://github.com/mschout/perl-app-toggl-logtimeinredmine",
+      "homepage" : "https://github.com/mschout/perl-app-toggl-to-redmine",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/mschout/perl-app-toggl-logtimeinredmine.git",
-         "web" : "https://github.com/mschout/perl-app-toggl-logtimeinredmine"
+         "url" : "https://github.com/mschout/perl-app-toggl-to-redmine.git",
+         "web" : "https://github.com/mschout/perl-app-toggl-to-redmine"
       }
    },
    "version" : "0.01",

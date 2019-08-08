@@ -31,9 +31,9 @@ requires:
   WebService::Toggl: '0'
   perl: '5.021008'
 resources:
-  bugtracker: https://github.com/mschout/perl-app-toggl-logtimeinredmine/issues
-  homepage: https://github.com/mschout/perl-app-toggl-logtimeinredmine
-  repository: https://github.com/mschout/perl-app-toggl-logtimeinredmine.git
+  bugtracker: https://github.com/mschout/perl-app-toggl-to-redmine/issues
+  homepage: https://github.com/mschout/perl-app-toggl-to-redmine
+  repository: https://github.com/mschout/perl-app-toggl-to-redmine.git
 version: '0.01'
 x_generated_by_perl: v5.26.2
 x_serialization_backend: 'YAML::Tiny version 1.73'
