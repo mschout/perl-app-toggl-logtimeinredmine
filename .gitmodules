@@ -1,3 +1,0 @@
-[submodule "vendor/MooseX-App-Plugin-ConfigXDG"]
-	path = vendor/MooseX-App-Plugin-ConfigXDG
-	url = https://github.com/mschout/perl-moosex-app-plugin-configxdg
