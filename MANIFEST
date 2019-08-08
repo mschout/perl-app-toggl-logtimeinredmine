@@ -12,5 +12,6 @@ SIGNATURE
 bin/toggl-log-to-redmine
 config/config.yaml
 lib/App/Toggl/LogToRedmine.pm
+packed.pl
 t/author-pod-syntax.t
 t/author-signature.t
