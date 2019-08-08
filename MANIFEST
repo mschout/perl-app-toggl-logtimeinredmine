@@ -9,8 +9,8 @@ Makefile.PL
 README
 README.md
 SIGNATURE
+bin/toggl-log-to-redmine
 config/config.yaml
 lib/App/Toggl/LogToRedmine.pm
-script/toggl-log-to-redmine
 t/author-pod-syntax.t
 t/author-signature.t
