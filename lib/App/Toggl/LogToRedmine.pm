@@ -13,6 +13,7 @@ use Time::HiRes qw(usleep);
 use Types::URI -all;
 use WWW::Mechanize;
 use WebService::Toggl;
+use IO::Socket::SSL;
 
 option api_key => (
     is            => 'ro',
