@@ -1,0 +1,5 @@
+#!/usr/bin/env perl
+
+use App::Toggl::LogToRedmine;
+
+App::Toggl::LogToRedmine->new_with_options->run;

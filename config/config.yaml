@@ -1,0 +1,9 @@
+---
+global:
+  api_key: 'your_toggl_api_key'
+  redmine_url: 'https://redmine.inforuptcy.net'
+  redmine_username: 'your_redmine_username'
+  redmine_password: 'your_redmine_password'
+  workspace: 'toggl_workspace_id'
+  client: 'toggl_client_id'
+
