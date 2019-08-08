@@ -3,10 +3,10 @@ abstract: 'Log Time Entries from Toggl in Redmine'
 author:
   - 'Michael Schout <mschout@cpan.org>'
 build_requires:
-  perl: '5.010'
+  perl: '5.021008'
 configure_requires:
   ExtUtils::MakeMaker: '0'
-  perl: '5.010'
+  perl: '5.021008'
 dynamic_config: 0
 generated_by: 'Dist::Zilla version 6.012, CPAN::Meta::Converter version 2.150010'
 license: perl
@@ -29,7 +29,7 @@ requires:
   Types::URI: '0'
   WWW::Mechanize: '0'
   WebService::Toggl: '0'
-  perl: '5.010'
+  perl: '5.021008'
 resources:
   bugtracker: https://github.com/mschout/perl-app-toggl-logtimeinredmine/issues
   homepage: https://github.com/mschout/perl-app-toggl-logtimeinredmine

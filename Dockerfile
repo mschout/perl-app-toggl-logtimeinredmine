@@ -1,4 +1,4 @@
-FROM mschout/perl-moosex-app-plugin-configxdg:latest
+FROM mschout/moosex-app-plugin-configxdg:latest
 
 COPY . /usr/src
 WORKDIR /usr/src

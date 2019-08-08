@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use 5.010;
+use 5.021008;
 
 use ExtUtils::MakeMaker;
 
@@ -14,10 +14,11 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "App-Toggl-LogTimeInRedmine",
   "EXE_FILES" => [
-    "bin/toggl-log-to-redmine"
+    "bin/toggl-log-to-redmine",
+    "bin/toggl-log-to-redmine-wrapper"
   ],
   "LICENSE" => "perl",
-  "MIN_PERL_VERSION" => "5.010",
+  "MIN_PERL_VERSION" => "5.021008",
   "NAME" => "App::Toggl::LogTimeInRedmine",
   "PREREQ_PM" => {
     "Carp::Assert::More" => 0,

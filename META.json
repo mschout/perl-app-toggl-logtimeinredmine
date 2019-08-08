@@ -17,7 +17,7 @@
       "configure" : {
          "requires" : {
             "ExtUtils::MakeMaker" : "0",
-            "perl" : "5.010"
+            "perl" : "5.021008"
          }
       },
       "develop" : {
@@ -41,12 +41,12 @@
             "Types::URI" : "0",
             "WWW::Mechanize" : "0",
             "WebService::Toggl" : "0",
-            "perl" : "5.010"
+            "perl" : "5.021008"
          }
       },
       "test" : {
          "requires" : {
-            "perl" : "5.010"
+            "perl" : "5.021008"
          }
       }
    },
