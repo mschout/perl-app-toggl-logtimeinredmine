@@ -6,6 +6,7 @@ WORKDIR /usr/src
 RUN apt-get update \
     && apt-get install -y build-essential \
     && cpanm -q --notest --skip-satisfied --installdeps . \
+    && cpanm -q --notest YAML::XS \
     && perl Makefile.PL \
     && make install \
     && rm -rf $HOME/.cpanm \
