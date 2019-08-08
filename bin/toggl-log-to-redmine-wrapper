@@ -1,0 +1,27 @@
+#!/bin/sh
+# PODNAME: toggl-log-to-redmine
+
+# A wrapper script for invoking toggl-log-to-redmine with docker
+# put this script in you $PATH as toggl-log-to-redmine, and edit the docker volumes as appropriate.
+# It is assumed that your config file (if using) is in $HOME/.config/toggl-log-to-redmine
+
+XDG_CONFIG_HOME="$HOME/.config"
+
+die() {
+    echo $@ >&2
+    exit 1
+}
+
+check_cmd_in_path(){
+    cmd=$1
+    which $cmd > /dev/null 2>&1 || error 1 "$cmd not found!"
+}
+
+check_cmd_in_path docker
+
+docker run \
+    --rm \
+    --tty \
+    --interactive \
+    --volume "$XDG_CONFIG_HOME":/root/.config \
+    mschout/toggl-log-to-redmine:latest toggl-log-to-redmine "$@"
