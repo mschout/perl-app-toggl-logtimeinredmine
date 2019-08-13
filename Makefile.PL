@@ -22,6 +22,7 @@ my %WriteMakefileArgs = (
   "NAME" => "App::Toggl::LogTimeInRedmine",
   "PREREQ_PM" => {
     "Carp::Assert::More" => 0,
+    "Data::Serializer::JSON" => 0,
     "DateTime" => 0,
     "DateTime::Format::ISO8601" => 0,
     "Function::Parameters" => 0,
@@ -31,7 +32,8 @@ my %WriteMakefileArgs = (
     "Time::HiRes" => 0,
     "Types::URI" => 0,
     "WWW::Mechanize" => 0,
-    "WebService::Toggl" => 0
+    "WebService::Toggl" => 0,
+    "YAML::XS" => 0
   },
   "VERSION" => "0.01",
   "test" => {
@@ -42,6 +44,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Carp::Assert::More" => 0,
+  "Data::Serializer::JSON" => 0,
   "DateTime" => 0,
   "DateTime::Format::ISO8601" => 0,
   "Function::Parameters" => 0,
@@ -51,7 +54,8 @@ my %FallbackPrereqs = (
   "Time::HiRes" => 0,
   "Types::URI" => 0,
   "WWW::Mechanize" => 0,
-  "WebService::Toggl" => 0
+  "WebService::Toggl" => 0,
+  "YAML::XS" => 0
 );
 
 

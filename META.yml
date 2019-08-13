@@ -20,6 +20,7 @@ provides:
     version: '0.01'
 requires:
   Carp::Assert::More: '0'
+  Data::Serializer::JSON: '0'
   DateTime: '0'
   DateTime::Format::ISO8601: '0'
   Function::Parameters: '0'
@@ -30,6 +31,7 @@ requires:
   Types::URI: '0'
   WWW::Mechanize: '0'
   WebService::Toggl: '0'
+  YAML::XS: '0'
   perl: '5.021008'
 resources:
   bugtracker: https://github.com/mschout/perl-app-toggl-to-redmine/issues
