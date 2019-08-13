@@ -25,6 +25,7 @@ requires:
   Function::Parameters: '0'
   IO::Socket::SSL: '0'
   JSON: '0'
+  LWP::Protocol::https: '0'
   Modern::Perl: '0'
   MooseX::App::Simple: '0'
   Time::HiRes: '0'
