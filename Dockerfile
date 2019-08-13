@@ -5,7 +5,7 @@ WORKDIR /usr/src
 
 RUN apt-get update \
     && apt-get install -y build-essential libssl-dev libz-dev openssl \
-    && cpanm -q --notest --skip-satisfied --listdeps . \
+    && cpanm -q --notest --skip-satisfied . \
     && perl Makefile.PL \
     && make install \
     && rm -rf $HOME/.cpanm \

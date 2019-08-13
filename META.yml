@@ -20,11 +20,11 @@ provides:
     version: '0.01'
 requires:
   Carp::Assert::More: '0'
-  Data::Serializer::JSON: '0'
   DateTime: '0'
   DateTime::Format::ISO8601: '0'
   Function::Parameters: '0'
   IO::Socket::SSL: '0'
+  JSON: '0'
   Modern::Perl: '0'
   MooseX::App::Simple: '0'
   Time::HiRes: '0'
